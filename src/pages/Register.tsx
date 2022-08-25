@@ -5,7 +5,7 @@ export function Register() {
   return (
     <Container>
       <div className="flex flex-col-reverse md:flex-row justify-center gap-12 items-center h-full">
-        <div className="bg-neutral-800 p-12 rounded-md">
+        <div className="bg-neutral-800 py-12 px-6 md:p-12 rounded-md w-full max-w-lg">
           <form action="" className="flex flex-col gap-6">
             <div className="flex flex-col gap-2">
               <label htmlFor="email" className="text-neutral-300">

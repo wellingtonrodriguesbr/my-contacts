@@ -19,7 +19,7 @@ export function Contacts() {
             <h2 className="text-blue-500 text-3xl font-semibold md:max-w-full max-w-[200px]">
               Lista de contatos
             </h2>
-            <button className="bg-blue-500 hover:bg-blue-700 transition-colors px-4 md:px-8 py-2 rounded-md font-semibold">
+            <button className="bg-blue-500 hover:bg-blue-700 transition-colors px-4 md:px-8 py-4 rounded-md font-semibold">
               Cadastrar novo
             </button>
           </div>
