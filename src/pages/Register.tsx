@@ -45,14 +45,14 @@ export function Register() {
               />
             </div>
             <button className="bg-blue-500 uppercase font-semibold p-4 rounded-md hover:bg-blue-700 transition-colors">
-              Entrar
+              Cadastrar
             </button>
           </form>
 
           <div className="flex justify-center gap-1 mt-6">
-            <p>Já possui uma conta?</p>
+            <p>Já tem uma conta?</p>
             <Link to="/">
-              <a className="text-blue-300 underline">Entre</a>
+              <a className="text-blue-300 underline">Faça login</a>
             </Link>
           </div>
         </div>
