@@ -4,10 +4,10 @@ import { Container } from "../components/Container";
 export function Login() {
   return (
     <Container>
-      <div className="flex flex-col md:flex-row justify-center gap-12 items-center h-full">
+      <div className="flex flex-col md:flex-row justify-center gap-6 md:gap-12 items-center h-screen">
         <div>
           <h2 className="text-blue-400">My Contacts</h2>
-          <h1 className="text-3xl md:text-5xl max-w-xl font-semibold md:leading-tight mt-4">
+          <h1 className="text-2xl md:text-5xl max-w-xl font-semibold md:leading-tight mt-4">
             Faça login para acessar sua agenda
           </h1>
         </div>
@@ -43,7 +43,7 @@ export function Login() {
             </button>
           </form>
 
-          <div className="flex justify-center gap-1 mt-6">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-1 mt-6">
             <p>Não tem uma conta?</p>
             <Link to="/register">
               <a className="text-blue-300 underline">Cadastre-se</a>
