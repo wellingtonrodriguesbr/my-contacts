@@ -46,7 +46,7 @@ export function Register() {
         </div>
         <div>
           <h2 className="text-neutral-400">My Contacts</h2>
-          <h1 className="text-4xl md:text-5xl max-w-xl font-semibold leading-tight mt-4">
+          <h1 className="text-3xl md:text-5xl max-w-xl font-semibold md:leading-tight mt-4">
             Cadastre-se para acessar sua agenda
           </h1>
         </div>

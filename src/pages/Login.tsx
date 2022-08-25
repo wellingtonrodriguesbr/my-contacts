@@ -7,7 +7,7 @@ export function Login() {
       <div className="flex flex-col md:flex-row justify-center gap-12 items-center h-full">
         <div>
           <h2 className="text-blue-400">My Contacts</h2>
-          <h1 className="text-4xl md:text-5xl max-w-xl font-semibold leading-tight mt-4">
+          <h1 className="text-3xl md:text-5xl max-w-xl font-semibold md:leading-tight mt-4">
             Faça login para acessar sua agenda
           </h1>
         </div>
