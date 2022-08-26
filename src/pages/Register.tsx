@@ -4,7 +4,7 @@ import { Container } from "../components/Container";
 export function Register() {
   return (
     <Container>
-      <div className="flex flex-col-reverse md:flex-row justify-center gap-6 md:gap-12 items-center h-full">
+      <div className="flex flex-col-reverse md:flex-row justify-center gap-6 md:gap-12 items-center h-screen">
         <div className="bg-neutral-800 py-12 px-6 md:p-12 rounded-md w-full max-w-lg">
           <form action="" className="flex flex-col gap-6">
             <div className="flex flex-col gap-2">
@@ -44,7 +44,10 @@ export function Register() {
                 id="password"
               />
             </div>
-            <button className="bg-blue-500 uppercase font-semibold p-4 rounded-md hover:bg-blue-700 transition-colors">
+            <button
+              type="submit"
+              className="bg-blue-500 uppercase font-semibold p-4 rounded-md hover:bg-blue-700 transition-colors"
+            >
               Cadastrar
             </button>
           </form>

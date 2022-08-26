@@ -38,7 +38,10 @@ export function Login() {
                 id="password"
               />
             </div>
-            <button className="bg-blue-500 uppercase font-semibold p-4 rounded-md hover:bg-blue-700 transition-colors">
+            <button
+              type="submit"
+              className="bg-blue-500 uppercase font-semibold p-4 rounded-md hover:bg-blue-700 transition-colors"
+            >
               Entrar
             </button>
           </form>
