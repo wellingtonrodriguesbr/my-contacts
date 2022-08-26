@@ -46,7 +46,9 @@ export function Login() {
           <div className="flex flex-col md:flex-row items-center justify-center gap-1 mt-6">
             <p>Não tem uma conta?</p>
             <Link to="/register">
-              <a className="text-blue-300 underline">Cadastre-se</a>
+              <a className="text-blue-500 underline hover:text-blue-300 transition-colors">
+                Cadastre-se
+              </a>
             </Link>
           </div>
         </div>

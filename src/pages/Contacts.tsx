@@ -1,3 +1,4 @@
+import { ArrowRight } from "phosphor-react";
 import { Link } from "react-router-dom";
 import { Container } from "../components/Container";
 
@@ -7,8 +8,9 @@ export function Contacts() {
       <header className="bg-neutral-800 h-20 flex items-center justify-center">
         <div>
           <Link to="/">
-            <button className="text-blue-500 px-4 py-2 hover:bg-blue-500 hover:text-neutral-900 rounded-md transition-all hover:font-semibold">
+            <button className="text-blue-500 px-4 py-2 hover:bg-blue-500 hover:text-white rounded-md transition-all hover:font-semibold flex items-center justify-center gap-2">
               Sair
+              <ArrowRight size={20} />
             </button>
           </Link>
         </div>
@@ -16,7 +18,7 @@ export function Contacts() {
       <Container>
         <div className="flex flex-col mt-20 h-full">
           <div className="flex gap-4 items-center justify-between">
-            <h2 className="text-blue-500 text-3xl font-semibold md:max-w-full max-w-[200px]">
+            <h2 className="text-blue-500 text-4xl font-semibold md:max-w-full max-w-[200px]">
               Lista de contatos
             </h2>
             <button className="bg-blue-500 hover:bg-blue-700 transition-colors px-4 md:px-8 py-4 rounded-md font-semibold">

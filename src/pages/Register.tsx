@@ -52,7 +52,9 @@ export function Register() {
           <div className="flex justify-center gap-1 mt-6">
             <p>Já tem uma conta?</p>
             <Link to="/">
-              <a className="text-blue-300 underline">Faça login</a>
+              <a className="text-blue-500 underline hover:text-blue-300 transition-colors">
+                Faça login
+              </a>
             </Link>
           </div>
         </div>
